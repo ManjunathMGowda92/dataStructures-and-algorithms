@@ -2,7 +2,7 @@ package org.manjunath.java.sortingalgorithms;
 
 public class QuickSortForIntegers {
 
-	private static void quickSort(int[] arr, int start, int end) {
+	private void quickSort(int[] arr, int start, int end) {
 		if (start > end)
 			return;
 		if (start <= end) {
@@ -12,7 +12,7 @@ public class QuickSortForIntegers {
 		}
 	}
 	
-	private static int getPartitionIndex(int[] arr, int start, int end) {
+	private int getPartitionIndex(int[] arr, int start, int end) {
 		int partitionIndex = start;
 		int pivot = arr[end];
 		
@@ -32,7 +32,7 @@ public class QuickSortForIntegers {
 		return partitionIndex;
 	}
 	
-	public static int[] getSortedArray(int[] arr) {
+	public int[] getSortedArray(int[] arr) {
 		quickSort(arr, 0, arr.length-1);
 		return arr;
 	}
