@@ -4,6 +4,10 @@
 	<test name="sortingAlgorithms" parallel="classes" thread-count="5">
 		<classes>
 			<class name="org.manjunath.java.sortingalgorithms.TestQuickSortForIntegers"/>
+			<class name="org.manjunath.java.test.sortingalgorithms.TestQuickSortForCharacters"/>
+			
+			<class name="org.manjunath.java.test.sortingalgorithms.TestIntegerMergeSort"/>
+			<class name="org.manjunath.java.test.sortingalgorithms.TestCharacterMergeSort"/>
 		</classes>
 	</test>
 </suite>
