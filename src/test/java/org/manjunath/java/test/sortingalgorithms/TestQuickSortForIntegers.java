@@ -1,6 +1,7 @@
-package org.manjunath.java.sortingalgorithms;
+package org.manjunath.java.test.sortingalgorithms;
 
 import org.manjunath.java.documentation.TestCase;
+import org.manjunath.java.sortingalgorithms.QuickSortForIntegers;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
